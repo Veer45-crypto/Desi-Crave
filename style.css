@@ -125,9 +125,10 @@ h1 {
 }
 
 
-@media (min-width: 1024px) {
-  .products {
-    justify-content: center;
+@media (max-width: 600px) {
+  .product-card img {
+    max-height: 150px;   /* mobile ke liye perfect */
   }
 }
+
 
