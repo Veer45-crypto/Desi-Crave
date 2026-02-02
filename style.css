@@ -123,6 +123,13 @@ h1 {
 .Adv {
     text-align: center;
 }
+.product-card img {
+  width: 100%;
+  height: auto;          /* 👈 MOBILE ke liye MUST */
+  max-height: 180px;     /* desktop jaisa look rahe */
+  object-fit: contain;  /* 👈 image cut nahi hogi */
+  display: block;
+}
 
 
 @media (max-width: 600px) {
@@ -130,5 +137,6 @@ h1 {
     max-height: 150px;   /* mobile ke liye perfect */
   }
 }
+
 
 
